@@ -1,0 +1,29 @@
+<div class="recurly-form">
+  <p>
+    recurly-form works!
+  </p>
+
+  <section id="errors"></section>
+
+  <section>
+    <form id="recurlyForm">
+      <input type="text" data-recurly="first_name">
+      <input type="text" data-recurly="last_name">
+      <div data-recurly="number"></div>
+      <div data-recurly="month"></div>
+      <div data-recurly="year"></div>
+      <div data-recurly="cvv"></div>
+      <input type="text" data-recurly="address1"/>
+      <input type="text" data-recurly="address2"/>
+      <input type="text" data-recurly="city"/>
+      <select data-recurly="country">
+        <option value="US">United States</option>
+        <option value="GB">Great Britain</option>
+      </select>
+      <input type="text" data-recurly="postal_code"/>
+      <input type="hidden" name="recurly-token" data-recurly="token">
+      <button>submit</button>
+    </form>
+  </section>
+
+</div>
